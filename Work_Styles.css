@@ -4,6 +4,10 @@
 	grid-template-rows: auto auto 140px 140px 50px 140px 140px 50px 140px 140px auto auto;
 }
 
+.mainGrid h2 {
+	color: #2963BA;
+}
+
 .blueHeader {
 	grid-column: 1 / 4;
 	grid-row: 1 / 2;

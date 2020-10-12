@@ -1,5 +1,227 @@
-.mainGrid {
+.mainGrid_JVs {
 	display: grid;
-	grid-template-columns: 15% 50px 875px 50px 15%;
-	grid-template-rows: auto auto 140px auto 300px 300px 300px 300px 300px 300px auto 140px auto;
+	grid-template-columns: 15% 50px 100px 675px 100px 50px 15%;
+	grid-template-rows: auto auto 140px 850px 510px 510px 400px 400px 400px 400px auto 140px auto;
 }
+
+.mainGrid_JVs h2 {
+	color: #FFFFFF;
+	padding-left: 80px;
+}
+
+.mainGrid_JVs h3 {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.mainGrid_JVs p {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.mainGrid_JVs li {
+	padding-left: 10px;
+}
+
+.headerImage {
+	grid-column: 1 / 8;
+	grid-row: 1 / 4;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("Images/CaseStudies/Construction.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.titleHolder {
+	grid-column: 3 / 6;
+	grid-row: 1 / 2;
+}
+
+.sideNavHolder {
+	grid-column: 1 / 2;
+	grid-row: 2 / 3;
+	padding-left: 15%;
+}
+
+.overviewHolder {
+	grid-column: 3 / 6;
+	grid-row: 2 / 3;
+}
+
+.overviewGridContainer {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	table-layout: fixed;
+	width: 775px;
+}
+
+.overviewHeader {
+	font-family: latoRegular;
+	font-size: 24px;
+	line-height: 35px;
+	color: #FFFFFF;
+	text-align: left;
+}
+
+.overviewBody {
+	font-family: latoThin;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-right: 40px;
+	vertical-align: top;
+}
+
+.blueBody {
+	grid-column: 3 / 6;
+	grid-row: 3 / 12;
+	background-color: #2963BA;
+	border-radius: 25px;
+}
+
+.blueBody p {
+	padding-left: 80px;
+	padding-right: 80px;
+}
+
+.approachOverviewHolder {
+	margin-left: auto;
+	margin-right: auto;
+	width: 815px;
+}
+
+.approachOverviewGrid {
+	display: grid;
+	grid-template-columns: 135px 135px 135px 135px 135px 135px;
+	grid-template-rows: 30px 30px 30px 30px 30px 200px 30px 30px 30px 30px 30px;
+}
+
+.approachOverview1 {
+	grid-column: 1 / 2;
+	grid-row: 1 / 7;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("Images/JVsCase/HypothesisImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachOverview2 {
+	grid-column: 2 / 3;
+	grid-row: 2 / 8;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("Images/JVsCase/QuestionImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachOverview3 {
+	grid-column: 3 / 4;
+	grid-row: 3 / 9;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("Images/JVsCase/InterviewImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachOverview4 {
+	grid-column: 4 / 5;
+	grid-row: 4 / 10;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("Images/JVsCase/ThemeImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachOverview5 {
+	grid-column: 5 / 6;
+	grid-row: 5 / 11;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("Images/JVsCase/ClusterImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachOverview6 {
+	grid-column: 6 / 7;
+	grid-row: 6 / 12;
+	background-image: linear-gradient(rgba(0,0,0,0.65),rgba(0,0,0,0.65)), url("Images/JVsCase/ReportingImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachOverviewCaption {
+	grid-column: 4 / 7;
+	grid-row: 1 / 5;
+	text-align: right;
+	padding-left: 0px;
+	padding-right: 0px;
+	font-family: latoLight;
+	font-size: 20px;
+	line-height: 32px;
+	color: #FFFFFF;
+}
+
+.approachOverviewTitle {
+	font-family: latoSemiBold;
+	font-size: 18px;
+	line-height: 24px;
+	color: #FFFFFF;
+	padding-top: 100px;
+	padding-left: 10px;
+}
+
+.approachOverviewBody {
+	font-family: latoLight;
+	font-size: 14px;
+	line-height: 17px;
+	color: #FFFFFF;
+	padding-top: 30px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.approachSubHolderBody1 {
+	grid-column: 3 / 5;
+	grid-row: 5 / 6;
+}
+
+.approachSubHolderImage1 {
+	grid-column: 5 / 7;
+	grid-row: 5 / 6;
+	background-image: url("Images/JVsCase/HypothesisImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+.approachSubHolderBody2 {
+	grid-column: 4 / 6;
+	grid-row: 6 / 7;
+	text-align: right;
+}
+
+.approachSubHolderImage2 {
+	grid-column: 2 / 4;
+	grid-row: 6 / 7;
+	background-image: url("Images/JVsCase/QuestionImage.jpeg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius: 10px;
+}
+
+
+
+
+
+
