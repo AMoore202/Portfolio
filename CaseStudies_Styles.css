@@ -21,6 +21,10 @@
 
 .mainGrid_JVs li {
 	padding-left: 10px;
+	font-family: latoLight;
+	font-size: 20px;
+	line-height: 32px;
+	color: #FFFFFF;
 }
 
 .headerImage {
