@@ -112,6 +112,10 @@
 	border-radius: 25px;
 }
 
+.caseStudy2:hover {
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .caseStudy3 {
 	grid-column: 2 / 3;
 	grid-row: 9 / 11;
@@ -121,6 +125,10 @@
 	background-size: cover;
 	position: relative;
 	border-radius: 25px;
+}
+
+.caseStudy3:hover {
+	box-shadow: 0 0 10px 10px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .caseStudyWithinGrid {
